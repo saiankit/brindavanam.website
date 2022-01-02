@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .postHoldersDesignations{
+        @apply h-[200px] w-[200px] bg-cover bg-center ml-auto mr-auto rounded-full;
+    }
+    .row_col-lg-6{
+        @apply ml-auto mr-auto p-[40px] text-center;
+    }
+
+    .postHoldersh1{
+        @apply text-[40px];
+    }
+
+    @media (max-width:768px){
+        .postHoldersDesignations{
+            @apply w-[130px] h-[130px]
+        }
+    }
+
+    @media (max-width:466px){
+        .row_col-lg-6{
+            @apply ml-auto mr-auto p-[20px] text-center;
+        }
+        .postHoldersh1{
+            @apply text-[27px]
+        }
+    }
+}

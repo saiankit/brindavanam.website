@@ -1,0 +1,203 @@
+#home{
+  margin-top: 75px;
+  height: 100%;
+}
+#postHolders {
+  padding: 40px;
+}
+#home h1,#postHolders h1{
+  color: black;
+  text-decoration: underline;
+  font-size: 40px;
+}
+.eventRow{
+  padding: 30px;
+}
+.col-lg-12,.col-lg-4{
+  padding: 20px;
+}
+.row .col-lg-6{
+margin-left: auto;
+margin-right: auto;
+padding: 40px;
+text-align: center;
+}
+.graycol{
+  background-color: #f4f9f9;
+  padding: 20px;
+}
+#home_parallalax{
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dzqu99ism/image/upload/v1617652554/mainpage_nnpmkc.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#home_parallalax .vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left:3%;
+  width: 50%;
+  color: white;
+}
+.aboutus{
+  padding: 40px 0;
+}
+#home_parallalax .vertical-center h1{
+  color: white;
+  text-decoration: none;
+  font-size: 44px;
+}
+.eventCards{
+  transition: 1s;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.reveal1 {
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 0;
+  height: 0;
+}
+.eventCards:hover{
+  transition: 0.5s;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 4px 18px 0px rgb(0 0 0 / 50%), 0 7px 10px -5px rgb(0 0 0 / 15%);
+}
+.eventCards:hover + div:nth-child(2),.reveal1:hover {
+   transition: 0.5s;
+   height: 300px;
+   padding: 20px 20px 20px 0;
+
+}
+.event1{
+  background-image: url('../images/freshers.png.jpg');
+}
+.event2{
+  background-image: url('https://res.cloudinary.com/dzqu99ism/image/upload/v1616307101/sankranthi_yiyfip.jpg');
+}
+.event3{
+  background-image: url('https://res.cloudinary.com/dzqu99ism/image/upload/v1616307373/tollywood_rxom5p.png');
+}
+.event4{
+  background-image: url('../images/culturalnight.jpeg');
+}
+.event5{
+  background-image: url('https://res.cloudinary.com/dzqu99ism/image/upload/v1616307423/gnapiks_ooi84c.jpg');
+}
+.event6{
+  background-image: url('https://res.cloudinary.com/dzqu99ism/image/upload/v1616307562/DJnight_xchyzx.jpg');
+}
+.president,.secretery,.secretery2,.treasurer{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
+.president{
+  background-image: url('https://drive.google.com/uc?id=1Q906H_zXN7Zz5W0gSIH4EwZwwBzus9Ju');
+}
+.secretery{
+  background-image: url('https://drive.google.com/uc?id=1Ib8oxBWKf_yusv3g2Uf4DJz-EP0yEU8_');
+}
+.secretery2{
+  background-image: url('https://scontent.fhyd16-1.fna.fbcdn.net/v/t1.6435-9/83663532_2623772887717955_2941019129844334592_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=3vf0C8Jkg2kAX9BxzIy&_nc_ht=scontent.fhyd16-1.fna&oh=680fc55434255b4723226db1ea8bf978&oe=6137E9F5');
+}
+.treasurer{
+  background-image: url('https://drive.google.com/uc?id=1Bpdxewk5yptpElTM9n-vLCuC606d6w3v');
+}
+@media (max-width:768px) {
+
+  #home_parallalax .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 73%;
+    left: 3%;
+    width: 80%;
+    color: white;
+}
+
+  #home_parallalax .vertical-center h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 7vw;
+}
+.eventCards{
+  width: 150px;
+  height: 150px;
+}
+.eventCards:hover{
+  width: 200px;
+  height: 200px;
+}
+.president, .secretery, .secretery2, .treasurer {
+  width: 130px;
+  height: 130px;
+}
+.row .aboutus {
+    padding: 40px;
+}
+}
+@media (max-width:466px){
+ p {
+
+    font-size: 3vw;
+    line-height: 5vw;
+}
+#home_parallalax .vertical-center h1 {
+  font-size: 6vw;
+}
+#home_parallalax {
+    height: 75vh;
+    background-image: url(../images/brinda2logo2.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: inherit;
+    background-position: center;
+}
+#home_parallalax .vertical-center {
+    margin: 0;
+    position: absolute;
+    top:62%;
+    bottom:17%;
+    left: 3%;
+    width: 75%;
+    color: white;
+}
+.col-lg-4{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body.hero-anime p {
+    opacity: 1;
+    transform: translateY(0);
+    /* transition-delay: 1700ms; */
+}
+.row .col-lg-6 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+#home h1, #postHolders h1 {
+    color: black;
+    text-decoration: underline;
+    font-size: 27px;
+
+}
+
+}
