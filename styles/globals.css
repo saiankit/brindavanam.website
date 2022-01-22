@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+/* @font-face {
+    font-family: 'Raleway';
+} */
+
 @tailwind utilities;
+
 
 @layer components{
     .postHoldersDesignations{
@@ -12,6 +18,10 @@
 
     .postHoldersh1{
         @apply text-[40px];
+    }
+
+    .h4 {
+        @apply font-['Raleway']  underline text-[1.3rem];
     }
 
     @media (max-width:768px){

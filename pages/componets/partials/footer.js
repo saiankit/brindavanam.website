@@ -5,17 +5,17 @@
           <section class="footer">
             <div class="links">
 
-              <img src="../../assets/brindlogo.png" alt="" width="132px" height="auto" /*className="w-32 h-auto"*/ />
-              <div className=" flex mt-15">
-                <a class="facebook" href="https://www.facebook.com/brindavanamBPHC"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/brindavanamtelugusamithi/" class="insta"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCUyHvo-RZ4L1C7-gezJDzVA" class="youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              <img src="../../assets/brindlogo.png" alt=""  className="w-[132px] h-auto" />
+              <div className=" flex mt-[15px]">
+                <a className="facebook" href="https://www.facebook.com/brindavanamBPHC"><i className="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/brindavanamtelugusamithi/" className="insta"><i className="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCUyHvo-RZ4L1C7-gezJDzVA" className="youtube"><i className="fab fa-youtube" aria-hidden="true"></i></a>
               </div>
             </div>
 
           </section>
           <div class="credits" id="creds">
-            <p> &#169 designed with <span className="red">❤</span> by <strong><a href="https://www.facebook.com/manivishal.burra/" className="inline">Manivishal Burra</a></strong></p>
+            <p> &#169 designed with <span className="text-red">❤</span> by <strong><a href="https://www.facebook.com/manivishal.burra/" className="inline">Manivishal Burra</a></strong></p>
           </div>
 
 

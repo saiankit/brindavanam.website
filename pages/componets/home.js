@@ -9,14 +9,14 @@ function HomePage() {
 
                         </div>
                         <h3>Abhinav sekharamantri</h3>
-                        <h4>President</h4>
+                        <h4 className="h4 font-serif">President</h4>
                     </div>
                     <div className="col-lg-6 row_col-lg-6">
                         <div className="secretery bg-[url('https://drive.google.com/uc?id=1Ib8oxBWKf_yusv3g2Uf4DJz-EP0yEU8_')] postHoldersDesignations">
 
                         </div>
                         <h3>Sai kumar yalavarthi</h3>
-                        <h4>Secretary</h4>
+                        <h4 className="h4">Secretary</h4>
                     </div>
                 </div>
                 <div className="row row_col-lg-6">
@@ -25,14 +25,14 @@ function HomePage() {
 
                         </div>
                         <h3>Segu samanyu</h3>
-                        <h4>Secretary</h4>
+                        <h4 className="h4">Secretary</h4>
                     </div>
                     <div className="col-lg-6 row_col-lg-6">
                         <div className="treasurer bg-[url('https://drive.google.com/uc?id=1Bpdxewk5yptpElTM9n-vLCuC606d6w3v')] postHoldersDesignations">
 
                         </div>
                         <h3>Sai ankit</h3>
-                        <h4>Technical lead</h4>
+                        <h4 className="h4">Technical lead</h4>
                     </div>
                 </div>
             </div>
